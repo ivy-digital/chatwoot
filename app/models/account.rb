@@ -66,6 +66,7 @@ class Account < ApplicationRecord
   has_many :teams, dependent: :destroy
   has_many :custom_filters, dependent: :destroy
   has_many :custom_attribute_definitions, dependent: :destroy
+  has_many :automation_rules, dependent: :destroy
 
   has_flags ACCOUNT_SETTINGS_FLAGS.merge(column: 'settings_flags').merge(DEFAULT_QUERY_SETTING)
 
