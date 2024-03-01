@@ -150,9 +150,9 @@
     "webpack-dev-server": "^3"
   },
   "engines": {
-    "node": "20.x",
-    "npm": ">=6.x",
-    "yarn": "1.22.x"
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": "1.21.1"
   },
   "husky": {
     "hooks": {
